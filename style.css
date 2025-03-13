@@ -6,9 +6,9 @@
     font-family: "Arial", sans-serif;
   }
   
-  /* Body: gradient background */
+  /* Body: updated gradient background */
   body {
-    background: linear-gradient(135deg, #3B0973 0%, #3F157F 100%);
+    background: linear-gradient(135deg, #FF5733 0%, #FFBD33 100%);
     color: #fff;
     min-height: 100vh;
     display: flex;
