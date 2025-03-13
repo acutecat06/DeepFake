@@ -1,0 +1,151 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Body: gradient background */
+  body {
+    background: linear-gradient(135deg, #3B0973 0%, #3F157F 100%);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Container to hold everything */
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  /* Header section */
+  header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  
+  /* Features section */
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  
+  .feature-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Video Analysis Dashboard section */
+  .video-analysis {
+    margin: 40px 0;
+  }
+  
+  .video-analysis h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Step numbers (1,2,3) near top */
+  .steps {
+    margin-bottom: 20px;
+  }
+  .step-number {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 5px;
+    border-radius: 50%;
+  }
+  
+  /* Upload area */
+  .upload-area {
+    position: relative;
+    border: 2px dashed rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 40px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.2s ease;
+  }
+  .upload-area:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .upload-area p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .upload-area .formats {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  
+  /* Hide the actual file input */
+  #fileInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Start Analysis Button */
+  #startAnalysisBtn {
+    background-color: #ff5f91;
+    background-image: linear-gradient(45deg, #ff5f91, #ff6ea0);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  #startAnalysisBtn:hover {
+    background-image: linear-gradient(45deg, #ff6ea0, #ff5f91);
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 30px;
+    opacity: 0.8;
+  }
+  

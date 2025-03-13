@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DeepFake Detective</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>DeepFake Detective</h1>
+      <p class="subtitle">Advanced AI-Powered Deepfake Detection System</p>
+    </header>
+
+    <section class="features">
+      <div class="feature-box">
+        <div class="feature-icon">🔎</div>
+        <h3>Visual Analysis</h3>
+        <p>Frame by frame facial recognition</p>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">🛡️</div>
+        <h3>AI Protection</h3>
+        <p>State of the art detection algorithms</p>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">⚡</div>
+        <h3>Quick Results</h3>
+        <p>Real-time video processing</p>
+      </div>
+    </section>
+
+    <!-- Video Analysis Dashboard -->
+    <section class="video-analysis">
+      <h2>Video Analysis Dashboard</h2>
+      <div class="steps">
+        <span class="step-number">1</span>
+        <span class="step-number">2</span>
+        <span class="step-number">3</span>
+      </div>
+
+      <!-- Drag and Drop Container -->
+      <div 
+        class="upload-area" 
+        id="uploadArea"
+        ondrop="handleDrop(event)" 
+        ondragover="handleDragOver(event)"
+      >
+        <p>Drop video or click to upload</p>
+        <p class="formats">Supports MP4, AVI, MOV formats</p>
+        <input type="file" id="fileInput" accept="video/*" />
+      </div>
+
+      <button id="startAnalysisBtn">Start Analysis</button>
+    </section>
+
+    <footer>
+      <p>Advanced Deepfake Detection System v2.0 Made by Adyasha 2025</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
